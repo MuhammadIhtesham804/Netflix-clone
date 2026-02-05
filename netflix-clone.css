@@ -775,27 +775,36 @@
         right: 20px;
     }
 
+    .netflix-reasonjoin-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .netflix-reason-join-card {
-        height: 260px;
-        width: 30%;
+        height: auto;
+        width: 95%;
         padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
     }
 
     .netflix-reason-join-card div[style*="font-size: 23px"] {
-        font-size: 18px !important;
-        padding-left: 8px !important;
-        padding-top: 12px !important;
+        font-size: 16px !important;
+        padding-left: 0px !important;
+        padding-top: 0px !important;
     }
 
     .netflix-reason-join-card div[style*="font-size: 15px"] {
         font-size: 13px !important;
-        padding-left: 8px !important;
-        padding-top: 12px !important;
+        padding-left: 0px !important;
+        padding-top: 10px !important;
         line-height: 1.4 !important;
     }
 
     .netflix-reason-join-card p {
-        margin: 3px 0 !important;
+        margin: 2px 0 !important;
     }
 
     .what-netflix {
@@ -820,10 +829,11 @@
     .position-set-2,
     .position-set-3,
     .position-set-4 {
-        top: 40px;
-        left: 100px;
-        width: 55px;
-        height: 55px;
+        top: auto;
+        left: auto;
+        right: 20px;
+        width: 50px;
+        height: 50px;
     }
 
     .position-set svg,
