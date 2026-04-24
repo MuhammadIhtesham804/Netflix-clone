@@ -7,10 +7,9 @@
 .netflix-background {
     height: 750px;
     width: 100%;
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0b0dad79-ad4d-42b7-b779-8518da389976/web/PK-en-20250908-TRIFECTA-perspective_51c2f7b0-0af1-4189-bc89-3e9b30c172d8_large.jpg");
-    background-size: 100% 100%;
-
+    background: linear-gradient(180deg, #050505 0%, #111 40%, #000 100%);
 }
+
 
 .opacity-background {
     height: 750px;
