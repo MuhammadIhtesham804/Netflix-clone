@@ -7,17 +7,17 @@
 .netflix-background {
     height: 750px;
     width: 100%;
-    background: linear-gradient(180deg, #050505 0%, #111 40%, #000 100%);
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ba53094c-3e3b-4789-94a6-baac10310f07/web/PK-en-20260420-TRIFECTA-perspective_b7c92ecc-b94e-4055-badf-6424ce6910a6_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 .opacity-background {
     height: 750px;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8987)4%, rgba(0, 0, 0, 0.85)11%, rgba(0, 0, 0, 0.74)15%, rgba(0, 0, 0, 0.5)40%, rgba(0, 0, 0, 0.69)70%, rgba(0, 0, 0, 0.79)90%, rgba(0, 0, 0, 0.897)100%);
-
-
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8987) 4%, rgba(0, 0, 0, 0.85) 11%, rgba(0, 0, 0, 0.74) 15%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.69) 70%, rgba(0, 0, 0, 0.79) 90%, rgba(0, 0, 0, 0.897) 100%);
 }
 
 .flex-header {
@@ -40,8 +40,6 @@
 .netflix-header-logo {
     height: 50px;
     width: 150px;
-    /* border: 2px solid red; */
-    /* color: black; */
 }
 
 .netflix-sign-button {
@@ -68,8 +66,6 @@
 .netflix-heading-1 {
     color: white;
     text-align: center;
-    /* font-size: 33px; */
-    /* font-weight: 1100; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5px;
     display: flex;
@@ -120,7 +116,6 @@
 
 .netflix-background-email:hover {
     cursor: text;
-
 }
 
 .netflix-background-get {
@@ -142,36 +137,21 @@
 }
 
 .netflix-curve {
-
-
-
-    border: red;
-    /* background-color: red; */
     position: relative;
     bottom: 109px;
-    /* margin-top: 20px; */
-
 }
 
 .default-ltr-iqcdef-cache-dulgtd {
     box-sizing: border-box;
     overflow-x: hidden;
     position: relative;
-    height: 7.25rem;
-    z-index: 1;
-    -webkit-text-size-adjust: 100%;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    color: white;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    position: relative;
     height: 8.25rem;
     z-index: 1;
-
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
 }
 
 .curve-container {
-    -webkit-text-size-adjust: 100%;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: white;
     box-sizing: border-box;
@@ -180,7 +160,6 @@
 .default-ltr-iqcdef-cache-1f97ztc {
     width: 130%;
     left: -15%;
-    -webkit-text-size-adjust: 100%;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: white;
     box-sizing: border-box;
@@ -189,18 +168,13 @@
     top: 0;
     margin: auto;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
     border: solid .25rem transparent;
     border-top-left-radius: 50% 100%;
     border-top-right-radius: 50% 100%;
     border-bottom: none;
-    background: radial-gradient(50% 500% at 50% -420%,
-            rgba(64, 97, 231, 0.4) 80%,
-            rgba(0, 0, 0, 0.1) 100%), black;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
     background-clip: padding-box;
-    width: 130%;
-    left: -15%;
 }
 
 .default-ltr-iqcdef-cache-1f97ztc::before {
@@ -218,14 +192,12 @@
 
 .default-ltr-iqcdef-cache-jtcpfi {
     margin-top: 1.375rem;
-    -webkit-text-size-adjust: 100%;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: white;
     box-sizing: border-box;
     position: relative;
     z-index: 2;
     text-align: center;
-    margin-top: 1.375rem;
 }
 
 .netflix-after-background-img {
@@ -234,21 +206,16 @@
     align-items: center;
     background-color: #000000;
     margin-bottom: 100px;
-    /* height: 50px; */
     width: 100%;
     position: relative;
     bottom: 110px;
 }
 
-
 .netflix-afterbackground {
-    /* height: auto; */
     width: 80%;
-    /* border: 2px solid red; */
 }
 
 .netflix-trendingnow-heading {
-    /* height: 20px; */
     color: white;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-size: 23px;
@@ -264,15 +231,13 @@
     overflow: hidden;
 }
 
-
-
 .netflix-trending-cards-1 {
     height: 272px;
     width: 19%;
     border-radius: 5px;
-    /* border: 2px solid white; */
-    background-image: url("https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWrTjWMrsToh9vAoz8rKrhSSHdJW6bmhL8Lvv63zCy1lo3O1TFqvZH4U80xS1vDJJV00sc97Ntd2b1Y1vh3v4SIs60pAtWC6pottJ80j5h4ITJPEURiTJEH4O_a47L1S0qlG.webp?r=f17&quo-1"
-        )
+    background-image: url('https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWrTjWMrsToh9vAoz8rKrhSSHdJW6bmhL8Lvv63zCy1lo3O1TFqvZH4U80xS1vDJJV00sc97Ntd2b1Y1vh3v4SIs60pAtWC6pottJ80j5h4ITJPEURiTJEH4O_a47L1S0qlG.webp?r=f17');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .outline {
@@ -280,17 +245,8 @@
     font-weight: 700;
     color: transparent;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    /* inside is empty */
     -webkit-text-stroke: 2px white;
-    /* border */
-    /* text-stroke: 4px white; */
-    /* for future support */
-    /* fallback for browsers without text-stroke */
-    text-shadow:
-        -2px -2px 0 rgb(12, 12, 12),
-        2px -2px 0 rgb(12, 12, 12),
-        -2px 2px 0 rgb(12, 12, 12),
-        2px 2px 0 rgb(12, 12, 12);
+    text-shadow: -2px -2px 0 rgb(12, 12, 12), 2px -2px 0 rgb(12, 12, 12), -2px 2px 0 rgb(12, 12, 12), 2px 2px 0 rgb(12, 12, 12);
     position: relative;
     top: 120px;
     right: 30px;
@@ -300,53 +256,37 @@
     height: 272px;
     width: 18%;
     border-radius: 5px;
-    background-image: url("https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABemK-aHwX63DztqbWwQ0xnYGvHYuoYkQ3l3ZIwftPjmuJxC461m-FOI7ZN_bzolsgGd_3_dbacKgr5mV292UjjEYJGCgIubIQOs.webp?r=273&quot;");
+    background-image: url('https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABemK-aHwX63DztqbWwQ0xnYGvHYuoYkQ3l3ZIwftPjmuJxC461m-FOI7ZN_bzolsgGd_3_dbacKgr5mV292UjjEYJGCgIubIQOs.webp?r=273');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .netflix-trending-cards-3 {
     height: 272px;
     width: 18%;
     border-radius: 5px;
-    background-image: url("https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABT--QQ4wqsTMWqkL6PgOy_oo2fHHQ4bFXtP1fEPAZz90nMu3qRQHp1v0eOYP5smMrCHZl1B7ZsgEdJHueVRy3sMN3naXuwV7WR9VrEtQ5ETXLljqiAcT1TeV3zw1bBrtT-m9.webp?r=f63&quot;");
+    background-image: url('https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABT--QQ4wqsTMWqkL6PgOy_oo2fHHQ4bFXtP1fEPAZz90nMu3qRQHp1v0eOYP5smMrCHZl1B7ZsgEdJHueVRy3sMN3naXuwV7WR9VrEtQ5ETXLljqiAcT1TeV3zw1bBrtT-m9.webp?r=f63');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .netflix-trending-cards-4 {
     height: 272px;
     width: 18%;
     border-radius: 5px;
-    background-image: url("https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbKjhiyoLvd9eVvrJJz3gL_8FeRpmDRo6dB5XZsgm2gAsi31g5RxXiTMnIH2xWNkvUmaO132F6sHVB_Nj6NHNSeyfKZ9vTo6dtiQyYyB0QBWr35OwyaYOnEwytjzLIYKelT9.webp?r=c56&quot;");
+    background-image: url('https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbKjhiyoLvd9eVvrJJz3gL_8FeRpmDRo6dB5XZsgm2gAsi31g5RxXiTMnIH2xWNkvUmaO132F6sHVB_Nj6NHNSeyfKZ9vTo6dtiQyYyB0QBWr35OwyaYOnEwytjzLIYKelT9.webp?r=c56');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.netflix-trending-cards-1:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition-duration: 1s;
-}
-
-.netflix-trending-cards-2:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition-duration: 1s;
-}
-
-.netflix-trending-cards-3:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition-duration: 1s;
-}
-
+.netflix-trending-cards-1:hover,
+.netflix-trending-cards-2:hover,
+.netflix-trending-cards-3:hover,
 .netflix-trending-cards-4:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition-duration: 1s;
 }
-
-/* .netflix-trending-cards-5 {
-    height: 272px;
-    width: 10%;
-    border-radius: 5px;
-    background-image: url("https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABU73BvQjJgydQFEJ-vZZw9QtO8fL6lIxc71x9tOqxgDWh_BHokCWPIbGC5AxJjDk0D_sIH5KhmmYm9HLr3DKUXg8eo6nzF0rtSI.webp?r=d95&quot;");
-} */
 
 .netflix-trending-cards-6 {
     height: 150px;
@@ -378,7 +318,7 @@
     height: 292px;
     width: 23%;
     border-radius: 5px;
-    background: linear-gradient(to bottom right, rgba(25, 33, 69, 0.8)35%, rgba(33, 14, 23, 0.9)100%);
+    background: linear-gradient(to bottom right, rgba(25, 33, 69, 0.8) 35%, rgba(33, 14, 23, 0.9) 100%);
 }
 
 .position-set {
@@ -462,7 +402,6 @@
 
 .footer-divs {
     width: 22%;
-
 }
 
 .faqs {
@@ -491,7 +430,6 @@
     background-color: #0F0F0F;
     font-weight: bold;
     margin-top: 50px;
-
 }
 
 .fa-language {
@@ -502,557 +440,43 @@
     margin-top: 2px;
 }
 
-/* ========================================
-   RESPONSIVE MEDIA QUERIES
-   ======================================== */
-
-/* Small Devices (SM) - Mobile: 320px to 576px */
+/* Responsive Media Queries */
 @media screen and (max-width: 576px) {
-    .netflix-background {
-        height: 600px;
-    }
-
-    .opacity-background {
-        height: 600px;
-    }
-
-    .netflix-header {
-        width: 90%;
-        padding-left: 10px;
-    }
-
-    .netflix-header-logo {
-        width: 100px;
-        height: 35px;
-    }
-
-    .netflix-sign-button {
-        height: 28px;
-        width: 60px;
-        padding-top: 5px;
-        font-size: 12px;
-    }
-
-    .netflix-background-middle {
-        height: 350px;
-    }
-
-    .netflix-heading-1 {
-        font-size: 14px;
-    }
-
-    .netflix-heading-1 div {
-        font-size: 28px !important;
-    }
-
-    .netflix-para {
-        font-size: 14px;
-    }
-
-    .netflix-para-2 {
-        font-size: 13px;
-        padding-top: 20px;
-    }
-
-    .netflix-background-email {
-        width: 85%;
-        height: 48px;
-        font-size: 13px;
-        padding-top: 12px;
-    }
-
-    .netflix-background-get {
-        width: 85%;
-        height: 48px;
-        font-size: 18px;
-        padding-top: 10px;
-    }
-
-    .netflix-get-started {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .netflix-afterbackground {
-        width: 95%;
-    }
-
-    .netflix-trendingnow-heading {
-        font-size: 18px;
-    }
-
-    .netflix-trending-cards-1,
-    .netflix-trending-cards-2,
-    .netflix-trending-cards-3,
-    .netflix-trending-cards-4 {
-        height: 150px;
-        width: 22%;
-    }
-
-    .netflix-trending-cards-6 {
-        height: 100px;
-        padding-top: 35px;
-        font-size: 18px;
-    }
-
-    .outline {
-        font-size: 60px;
-        top: 50px;
-        right: 15px;
-    }
-
-    .netflix-reason-join-card {
-        height: 220px;
-        width: 95%;
-        margin-bottom: 15px;
-        padding: 15px;
-    }
-
-    .netflix-reason-join-card div[style*="font-size: 23px"] {
-        font-size: 16px !important;
-        padding-left: 0px !important;
-        padding-top: 0px !important;
-    }
-
-    .netflix-reason-join-card div[style*="font-size: 15px"] {
-        font-size: 12px !important;
-        padding-left: 0px !important;
-        padding-top: 10px !important;
-        line-height: 1.3 !important;
-    }
-
-    .netflix-reason-join-card p {
-        margin: 2px 0 !important;
-    }
-
-    .netflix-reasonjoin-div {
-        flex-direction: column;
-    }
-
-    .what-netflix {
-        height: 60px;
-        margin-bottom: 8px;
-    }
-
-    .what-netflix div[style*="font-size: 30px"] {
-        font-size: 16px !important;
-    }
-
-    .what-netflix div[style*="font-size: 70px"] {
-        font-size: 35px !important;
-    }
-
-    .netflix-question-div {
-        gap: 5px;
-        margin-top: 15px;
-    }
-
-    .position-set,
-    .position-set-2,
-    .position-set-3,
-    .position-set-4 {
-        top: 20px;
-        left: 50px;
-        width: 45px;
-        height: 45px;
-    }
-
-    .position-set svg,
-    .position-set-2 svg,
-    .position-set-3 svg,
-    .position-set-4 svg {
-        width: 45px !important;
-        height: 45px !important;
-    }
-
-    .position-set svg,
-    .position-set-2 svg,
-    .position-set-3 svg,
-    .position-set-4 svg {
-        width: 45px !important;
-        height: 45px !important;
-    }
-
-    .netflix-language-button {
-        width: 40%;
-    }
-
-    .footer-main-div {
-        width: 95%;
-        flex-direction: column;
-    }
-
-    .footer-divs {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+    .netflix-background { height: 600px; }
+    .opacity-background { height: 600px; }
+    .netflix-header { width: 90%; padding-left: 10px; }
+    .netflix-header-logo { width: 100px; height: 35px; }
+    .netflix-sign-button { height: 28px; width: 60px; padding-top: 5px; font-size: 12px; }
+    .netflix-background-middle { height: 350px; }
+    .netflix-heading-1 div { font-size: 28px !important; }
+    .netflix-para { font-size: 14px; }
+    .netflix-para-2 { font-size: 13px; padding-top: 20px; }
+    .netflix-background-email { width: 85%; height: 48px; font-size: 13px; padding-top: 12px; }
+    .netflix-background-get { width: 85%; height: 48px; font-size: 18px; padding-top: 10px; }
+    .netflix-get-started { flex-direction: column; gap: 8px; }
+    .netflix-afterbackground { width: 95%; }
+    .netflix-trendingnow-heading { font-size: 18px; }
+    .netflix-trending-cards-1, .netflix-trending-cards-2, .netflix-trending-cards-3, .netflix-trending-cards-4 { height: 150px; width: 22%; }
+    .netflix-trending-cards-6 { height: 100px; padding-top: 35px; font-size: 18px; width: 10%; }
+    .outline { font-size: 60px; top: 50px; right: 15px; }
+    .netflix-reasonjoin-div { flex-direction: column; }
+    .netflix-reason-join-card { width: 95%; margin-bottom: 15px; height: auto; padding-bottom: 20px; }
+    .position-set, .position-set-2, .position-set-3, .position-set-4 { top: 20px; left: auto; right: 20px; }
+    .position-set svg, .position-set-2 svg, .position-set-3 svg, .position-set-4 svg { width: 45px !important; height: 45px !important; }
+    .what-netflix { height: 60px; }
+    .what-netflix div div:first-child { font-size: 16px !important; }
+    .what-netflix div div:last-child { font-size: 35px !important; }
+    .netflix-language-button { width: 40%; }
+    .footer-main-div { flex-direction: column; width: 100%; }
+    .footer-divs { width: 100%; margin-bottom: 20px; }
+    .netflix-background-email-2 { width: 100%; }
 }
 
-/* Medium Devices (MD) - Tablet: 577px to 992px */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .netflix-background {
-        height: 650px;
-    }
-
-    .opacity-background {
-        height: 650px;
-    }
-
-    .netflix-header {
-        width: 85%;
-        padding-left: 15px;
-    }
-
-    .netflix-header-logo {
-        width: 120px;
-        height: 40px;
-    }
-
-    .netflix-sign-button {
-        height: 30px;
-        width: 65px;
-        padding-top: 6px;
-        font-size: 13px;
-    }
-
-    .netflix-background-middle {
-        height: 400px;
-    }
-
-    .netflix-heading-1 div {
-        font-size: 40px !important;
-    }
-
-    .netflix-para {
-        font-size: 18px;
-    }
-
-    .netflix-para-2 {
-        font-size: 15px;
-        padding-top: 30px;
-    }
-
-    .netflix-background-email {
-        width: 250px;
-        height: 50px;
-        font-size: 15px;
-        padding-top: 14px;
-    }
-
-    .netflix-background-get {
-        width: 180px;
-        height: 50px;
-        font-size: 20px;
-        padding-top: 12px;
-    }
-
-    .netflix-afterbackground {
-        width: 90%;
-    }
-
-    .netflix-trendingnow-heading {
-        font-size: 20px;
-    }
-
-    .netflix-trending-cards-1,
-    .netflix-trending-cards-2,
-    .netflix-trending-cards-3,
-    .netflix-trending-cards-4 {
-        height: 200px;
-        width: 20%;
-    }
-
-    .netflix-trending-cards-6 {
-        height: 120px;
-        padding-top: 45px;
-        font-size: 20px;
-    }
-
-    .outline {
-        font-size: 80px;
-        top: 60px;
-        right: 20px;
-    }
-
-    .netflix-reasonjoin-div {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .netflix-reason-join-card {
-        height: auto;
-        width: 95%;
-        padding: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 15px;
-    }
-
-    .netflix-reason-join-card div[style*="font-size: 23px"] {
-        font-size: 16px !important;
-        padding-left: 0px !important;
-        padding-top: 0px !important;
-    }
-
-    .netflix-reason-join-card div[style*="font-size: 15px"] {
-        font-size: 13px !important;
-        padding-left: 0px !important;
-        padding-top: 10px !important;
-        line-height: 1.4 !important;
-    }
-
-    .netflix-reason-join-card p {
-        margin: 2px 0 !important;
-    }
-
-    .what-netflix {
-        height: 70px;
-        margin-bottom: 12px;
-    }
-
-    .what-netflix div[style*="font-size: 30px"] {
-        font-size: 18px !important;
-    }
-
-    .what-netflix div[style*="font-size: 70px"] {
-        font-size: 45px !important;
-    }
-
-    .netflix-question-div {
-        gap: 8px;
-        margin-top: 20px;
-    }
-
-    .position-set,
-    .position-set-2,
-    .position-set-3,
-    .position-set-4 {
-        top: auto;
-        left: auto;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-    }
-
-    .position-set svg,
-    .position-set-2 svg,
-    .position-set-3 svg,
-    .position-set-4 svg {
-        width: 55px !important;
-        height: 55px !important;
-    }
-
-    .netflix-language-button {
-        width: 20%;
-    }
-
-    .footer-main-div {
-        width: 90%;
-        flex-wrap: wrap;
-    }
-
-    .footer-divs {
-        width: 45%;
-    }
+    .netflix-reasonjoin-div { flex-direction: column; align-items: center; }
+    .netflix-reason-join-card { width: 95%; margin-bottom: 15px; height: auto; padding-bottom: 20px; }
+    .position-set, .position-set-2, .position-set-3, .position-set-4 { top: auto; left: auto; right: 20px; }
+    .netflix-language-button { width: 20%; }
+    .footer-divs { width: 45%; }
+    .footer-main-div { flex-wrap: wrap; }
 }
-
-/* Large Devices (LG) - Desktop: 993px and above */
-@media screen and (min-width: 993px) {
-    .netflix-background {
-        height: 750px;
-    }
-
-    .opacity-background {
-        height: 750px;
-    }
-
-    .netflix-header {
-        width: 80%;
-        padding-left: 20px;
-    }
-
-    .netflix-header-logo {
-        width: 150px;
-        height: 50px;
-    }
-
-    .netflix-sign-button {
-        height: 33px;
-        width: 70px;
-        padding-top: 7px;
-        font-size: 15px;
-    }
-
-    .netflix-background-middle {
-        height: 480px;
-    }
-
-    .netflix-heading-1 div {
-        font-size: 55px;
-    }
-
-    .netflix-para {
-        font-size: 21px;
-    }
-
-    .netflix-para-2 {
-        font-size: 17px;
-        padding-top: 50px;
-    }
-
-    .netflix-background-email {
-        width: 366px;
-        height: 56px;
-        font-size: 17px;
-        padding-top: 17px;
-    }
-
-    .netflix-background-get {
-        width: 213px;
-        height: 56px;
-        font-size: 25px;
-        padding-top: 15px;
-    }
-
-    .netflix-afterbackground {
-        width: 80%;
-    }
-
-    .netflix-trendingnow-heading {
-        font-size: 23px;
-    }
-
-    .netflix-trending-cards-1 {
-        width: 19%;
-        height: 272px;
-    }
-
-    .netflix-trending-cards-2,
-    .netflix-trending-cards-3,
-    .netflix-trending-cards-4 {
-        width: 18%;
-        height: 272px;
-    }
-
-    .netflix-trending-cards-6 {
-        width: 2.5%;
-        height: 150px;
-        padding-top: 60px;
-        font-size: 23px;
-    }
-
-    .outline {
-        font-size: 120px;
-        top: 120px;
-        right: 30px;
-    }
-
-    .netflix-reason-join-card {
-        width: 23%;
-        height: 292px;
-        border-radius: 5px;
-        background: linear-gradient(to bottom right, rgba(25, 33, 69, 0.8)35%, rgba(33, 14, 23, 0.9)100%);
-    }
-
-    .what-netflix {
-        height: 80px;
-        margin-bottom: 15px;
-    }
-
-    .what-netflix div[style*="font-size: 30px"] {
-        font-size: 30px !important;
-    }
-
-    .what-netflix div[style*="font-size: 70px"] {
-        font-size: 70px !important;
-    }
-
-    .netflix-question-div {
-        gap: 10px;
-        margin-top: 20px;
-    }
-
-    .position-set {
-        top: 65px;
-        left: 160px;
-        width: 72px;
-        height: 72px;
-    }
-
-    .position-set-2 {
-        top: 25px;
-        left: 160px;
-        width: 72px;
-        height: 72px;
-    }
-
-    .position-set-3 {
-        top: 85px;
-        left: 160px;
-        width: 72px;
-        height: 72px;
-    }
-
-    .position-set-4 {
-        top: 40px;
-        left: 160px;
-        width: 72px;
-        height: 72px;
-    }
-
-    .position-set svg,
-    .position-set-2 svg,
-    .position-set-3 svg,
-    .position-set-4 svg {
-        width: 72px !important;
-        height: 72px !important;
-    }
-
-    .position-set-3 {
-        top: 85px;
-        left: 160px;
-        width: 72px;
-        height: 72px;
-    }
-
-    .position-set-4 {
-        top: 40px;
-        left: 160px;
-        width: 72px;
-        height: 72px;
-    }
-
-    .netflix-language-button {
-        width: 13%;
-    }
-
-    .footer-main-div {
-        width: 90%;
-    }
-
-    .footer-divs {
-        width: 22%;
-    }
-}
-
-/* @media screen and (max-width:576px) {
-    * {
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-    }
-
-    body {
-        background-color: black;
-    }
-
-    .netflix-background {
-        width: 576px;
-        /* height: 620px; */
-
-/* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0b0dad79-ad4d-42b7-b779-8518da389976/web/PK-en-20250908-TRIFECTA-perspective_51c2f7b0-0af1-4189-bc89-3e9b30c172d8_medium.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
-}
-} */
